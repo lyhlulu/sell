@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77f5c70d-44f7-4832-9039-3852e0a956c2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Maven\maven_jar" />
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XzAbKj05O52yy3xooWjRpSqSiE" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lyh.sell.repository" />
+      <recent name="com.lyh.sell.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lyh.sell" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderDetailRepositoryTest.findByOrderId">
+    <configuration name="OrderDetailRepositoryTest.findByOrderId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderDetailRepositoryTest" />
+      <option name="METHOD_NAME" value="findByOrderId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDetailRepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderDetailRepositoryTest" />
+      <option name="METHOD_NAME" value="saveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMasterRepositoryTest.findByBuyerOpenid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderMasterRepositoryTest" />
+      <option name="METHOD_NAME" value="findByBuyerOpenid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMasterRepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderMasterRepositoryTest" />
+      <option name="METHOD_NAME" value="saveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.service.impl.ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SellApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sell" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyh.sell.SellApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderDetailRepositoryTest.findByOrderId" />
+        <item itemvalue="JUnit.OrderDetailRepositoryTest.saveTest" />
+        <item itemvalue="JUnit.OrderMasterRepositoryTest.findByBuyerOpenid" />
+        <item itemvalue="JUnit.OrderMasterRepositoryTest.saveTest" />
+        <item itemvalue="JUnit.ProductServiceImplTest.save" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77f5c70d-44f7-4832-9039-3852e0a956c2" name="Default Changelist" comment="" />
+      <created>1582038619994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582038619994</updated>
+      <workItem from="1582038628491" duration="166000" />
+      <workItem from="1582079913898" duration="3015000" />
+      <workItem from="1582083961856" duration="837000" />
+      <workItem from="1582084834216" duration="8445000" />
+      <workItem from="1582186625402" duration="496000" />
+      <workItem from="1582250986971" duration="2134000" />
+      <workItem from="1582253576292" duration="5127000" />
+      <workItem from="1582258801670" duration="135000" />
+      <workItem from="1582259957353" duration="11070000" />
+      <workItem from="1582365982383" duration="2009000" />
+      <workItem from="1582368391974" duration="14478000" />
+      <workItem from="1582437815074" duration="13405000" />
+      <workItem from="1582471634379" duration="544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="158" key="#HTTP_Proxy" timestamp="1582256932394">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="446" y="158" key="#HTTP_Proxy/0.0.1707.935@0.0.1707.935" timestamp="1582256932394" />
+    <state x="446" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582256968139">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="446" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.935@0.0.1707.935" timestamp="1582256968139" />
+    <state x="659" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1582448686979">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="659" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1707.935@0.0.1707.935" timestamp="1582448686979" />
+    <state x="638" y="325" width="431" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582449463194">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="638" y="325" width="431" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.935@0.0.1707.935" timestamp="1582449463194" />
+    <state x="584" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582252413130">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="584" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.935@0.0.1707.935" timestamp="1582252413130" />
+    <state x="634" y="208" key="FileChooserDialogImpl" timestamp="1582472240764">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="634" y="208" key="FileChooserDialogImpl/0.0.1707.935@0.0.1707.935" timestamp="1582472240764" />
+    <state width="1663" height="300" key="GridCell.Tab.0.bottom" timestamp="1582471591678">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.0.bottom/0.0.1707.935@0.0.1707.935" timestamp="1582471591678" />
+    <state width="1663" height="300" key="GridCell.Tab.0.center" timestamp="1582471591677">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.0.center/0.0.1707.935@0.0.1707.935" timestamp="1582471591677" />
+    <state width="1663" height="300" key="GridCell.Tab.0.left" timestamp="1582471591676">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.0.left/0.0.1707.935@0.0.1707.935" timestamp="1582471591676" />
+    <state width="1663" height="300" key="GridCell.Tab.0.right" timestamp="1582471591678">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.0.right/0.0.1707.935@0.0.1707.935" timestamp="1582471591678" />
+    <state width="1663" height="300" key="GridCell.Tab.1.bottom" timestamp="1582471591680">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.bottom/0.0.1707.935@0.0.1707.935" timestamp="1582471591680" />
+    <state width="1663" height="300" key="GridCell.Tab.1.center" timestamp="1582471591679">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.center/0.0.1707.935@0.0.1707.935" timestamp="1582471591679" />
+    <state width="1663" height="300" key="GridCell.Tab.1.left" timestamp="1582471591678">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.left/0.0.1707.935@0.0.1707.935" timestamp="1582471591678" />
+    <state width="1663" height="300" key="GridCell.Tab.1.right" timestamp="1582471591680">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.right/0.0.1707.935@0.0.1707.935" timestamp="1582471591680" />
+    <state x="338" y="150" key="SettingsEditor" timestamp="1582471585094">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="338" y="150" key="SettingsEditor/0.0.1707.935@0.0.1707.935" timestamp="1582471585094" />
+    <state x="538" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1582471633927">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="538" y="291" key="com.intellij.ide.util.TipDialog/0.0.1707.935@0.0.1707.935" timestamp="1582471633927" />
+    <state x="625" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582469660270">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="625" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1707.935@0.0.1707.935" timestamp="1582469660270" />
+    <state x="516" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1582449699647">
+      <screen x="0" y="0" width="1707" height="935" />
+    </state>
+    <state x="516" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1707.935@0.0.1707.935" timestamp="1582449699647" />
+  </component>
+</project>

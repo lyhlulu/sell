@@ -1,0 +1,18 @@
+2020-02-19 16:54:56.714 [main] INFO  com.lyh.sell.LoggerTest - Starting LoggerTest on SKY-20180604AKA with PID 12504 (started by 辉 in E:\IdeaProjects\sell)
+2020-02-19 16:54:56.723 [main] INFO  com.lyh.sell.LoggerTest - No active profile set, falling back to default profiles: default
+2020-02-19 16:55:00.206 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-19 16:55:00.896 [main] INFO  com.lyh.sell.LoggerTest - Started LoggerTest in 5.68 seconds (JVM running for 7.483)
+2020-02-19 16:55:01.622 [main] INFO  com.lyh.sell.LoggerTest - info...
+2020-02-19 16:55:01.656 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-19 16:56:54.404 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 5840 (E:\IdeaProjects\sell\target\classes started by 辉 in E:\IdeaProjects\sell)
+2020-02-19 16:56:54.412 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-19 16:56:56.338 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-19 16:56:56.356 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-19 16:56:56.357 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-19 16:56:56.358 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-19 16:56:56.465 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-02-19 16:56:56.465 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1864 ms
+2020-02-19 16:56:56.718 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-19 16:56:56.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-19 16:56:56.955 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-19 16:56:56.961 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 3.421 seconds (JVM running for 5.079)
