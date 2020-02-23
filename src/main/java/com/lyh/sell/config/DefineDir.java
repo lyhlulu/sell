@@ -14,7 +14,7 @@ public class DefineDir extends PropertyDefinerBase {
     public String getPropertyValue() {
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-        String defineDir = "E:/logs/sell/" + format.format(date);
+        String defineDir = "log//" + format.format(date);
         return defineDir;
     }
 }
