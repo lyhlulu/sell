@@ -1,0 +1,28 @@
+2020-02-23 23:47:53.178 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 4628 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-23 23:47:53.183 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-23 23:47:54.628 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-23 23:47:54.731 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89ms. Found 4 JPA repository interfaces.
+2020-02-23 23:47:55.289 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-23 23:47:55.737 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-23 23:47:55.749 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-23 23:47:55.750 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-23 23:47:55.751 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-23 23:47:55.873 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-23 23:47:55.874 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2586 ms
+2020-02-23 23:47:55.895 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-23 23:47:56.066 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-23 23:47:56.276 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-23 23:47:56.325 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-23 23:47:56.439 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-23 23:47:56.659 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-23 23:47:56.826 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-23 23:47:57.686 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-23 23:47:57.695 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-23 23:47:58.405 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-23 23:47:58.543 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-23 23:47:58.736 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-23 23:47:58.766 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-23 23:47:58.812 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-23 23:47:58.938 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-23 23:47:58.964 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-23 23:47:58.966 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 6.775 seconds (JVM running for 7.89)

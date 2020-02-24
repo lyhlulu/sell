@@ -1,0 +1,5 @@
+2020-02-24 20:36:14.631 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'order_status' cannot be null
+2020-02-24 20:36:32.334 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'order_status' cannot be null
+2020-02-24 20:42:44.847 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'order_status' cannot be null
+2020-02-24 23:27:11.171 [main] ERROR com.lyh.sell.service.impl.OrderServiceImpl - 【取消订单】订单状态不正确 orderId = 20200224210002731495, orderStatus = 0
+2020-02-24 23:55:46.906 [main] ERROR com.lyh.sell.service.impl.OrderServiceImpl - 【完结订单】订单状态不正确 orderId=20200224210002731495, orderStatus=2

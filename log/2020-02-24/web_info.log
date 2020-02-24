@@ -1,0 +1,633 @@
+2020-02-24 19:53:08.710 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 14832 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 19:53:08.716 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 19:53:10.366 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 19:53:10.512 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127ms. Found 4 JPA repository interfaces.
+2020-02-24 19:53:11.201 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 19:53:11.560 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 19:53:12.038 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 19:53:12.156 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 19:53:12.336 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 19:53:12.645 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 19:53:13.048 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 19:53:14.404 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 19:53:14.415 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 19:53:16.136 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 19:53:16.203 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 19:53:16.826 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 19:53:17.670 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 19:53:17.702 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 19:53:17.747 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 19:53:17.946 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 10.931 seconds (JVM running for 13.459)
+2020-02-24 19:53:18.088 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 19:53:18.106 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 19:53:18.110 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 19:53:18.137 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:26:27.008 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 10580 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:26:27.022 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:26:29.139 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:26:29.522 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 342ms. Found 4 JPA repository interfaces.
+2020-02-24 20:26:30.456 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:26:30.965 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:26:31.536 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:26:31.692 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:26:31.932 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:26:32.306 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:26:32.808 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:26:34.332 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:26:34.346 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:26:36.919 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:26:37.038 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:26:37.883 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:26:39.002 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:26:39.052 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:26:39.115 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:26:39.406 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 14.492 seconds (JVM running for 17.968)
+2020-02-24 20:26:39.954 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:26:39.959 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:26:39.965 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:26:39.991 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:32:25.495 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 1588 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:32:25.498 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:32:28.266 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:32:28.477 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 181ms. Found 4 JPA repository interfaces.
+2020-02-24 20:32:29.547 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:32:30.010 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:32:30.454 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:32:30.598 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:32:30.792 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:32:31.202 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:32:31.737 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:32:33.530 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:32:33.543 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:32:35.644 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:32:35.745 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:32:36.566 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:32:37.451 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:32:37.496 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:32:37.593 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:32:38.044 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 14.247 seconds (JVM running for 16.367)
+2020-02-24 20:35:00.430 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:35:00.438 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:35:00.443 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:35:00.468 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:35:09.711 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 776 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:35:09.715 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:35:11.533 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:35:11.775 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 218ms. Found 4 JPA repository interfaces.
+2020-02-24 20:35:12.657 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:35:13.099 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:35:13.567 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:35:13.680 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:35:13.867 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:35:14.110 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:35:14.557 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:35:16.283 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:35:16.300 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:35:18.517 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:35:18.637 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:35:19.408 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:35:20.252 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:35:20.313 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:35:20.405 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:35:20.695 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 12.284 seconds (JVM running for 15.427)
+2020-02-24 20:36:14.592 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:36:14.604 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:36:14.611 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:36:14.639 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:36:20.580 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 10204 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:36:20.587 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:36:22.395 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:36:22.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 230ms. Found 4 JPA repository interfaces.
+2020-02-24 20:36:23.489 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:36:23.892 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:36:24.415 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:36:24.503 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:36:24.699 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:36:24.962 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:36:25.383 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:36:27.148 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:36:27.162 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:36:29.696 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:36:29.783 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:36:30.539 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:36:31.456 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:36:31.514 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:36:31.570 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:36:31.879 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 12.989 seconds (JVM running for 16.07)
+2020-02-24 20:36:32.384 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:36:32.390 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:36:32.396 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:36:32.416 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:40:48.580 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 9396 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:40:48.586 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:40:50.178 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:40:50.360 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 159ms. Found 4 JPA repository interfaces.
+2020-02-24 20:40:51.351 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:40:51.888 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:40:52.295 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:40:52.392 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:40:52.568 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:40:52.862 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:40:53.318 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:40:54.469 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:40:54.490 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:40:56.713 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:40:56.833 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:40:57.714 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:40:58.584 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:40:58.653 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:40:58.750 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:40:59.116 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 12.7 seconds (JVM running for 15.258)
+2020-02-24 20:42:44.844 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:42:44.885 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:42:44.889 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:42:44.910 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:42:54.108 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 6172 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:42:54.122 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:42:56.448 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:42:56.613 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 147ms. Found 4 JPA repository interfaces.
+2020-02-24 20:42:57.436 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:42:57.856 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:42:58.266 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:42:58.372 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:42:58.548 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:42:58.813 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:42:59.240 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:43:00.982 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:43:01.002 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:43:05.876 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:43:06.034 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:43:08.238 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:43:08.992 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:43:09.030 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:43:09.090 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:43:09.347 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 16.946 seconds (JVM running for 19.478)
+2020-02-24 20:43:25.625 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:43:25.638 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:43:25.642 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:43:25.662 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:43:43.647 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 15296 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:43:43.663 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:43:45.714 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:43:45.868 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139ms. Found 4 JPA repository interfaces.
+2020-02-24 20:43:46.635 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:43:47.072 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:43:47.430 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:43:47.542 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:43:47.776 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:43:47.991 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:43:48.392 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:43:49.693 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:43:49.703 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:43:51.564 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:43:51.655 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:43:52.232 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:43:53.126 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:43:53.159 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:43:53.204 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:43:53.387 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 11.207 seconds (JVM running for 13.274)
+2020-02-24 20:43:53.917 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - 【创建订单】result = 
+2020-02-24 20:43:53.933 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:43:53.939 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:43:53.942 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:43:53.960 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:49:34.274 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 11412 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:49:34.277 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:49:36.533 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:49:36.665 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121ms. Found 4 JPA repository interfaces.
+2020-02-24 20:49:37.262 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:49:37.605 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:49:37.971 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:49:38.059 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:49:38.206 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:49:38.401 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:49:38.749 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:49:40.035 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:49:40.047 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:49:42.234 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:49:42.333 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:49:42.903 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:49:43.366 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 20:49:43.637 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 20:49:43.678 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 20:49:43.850 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 10.844 seconds (JVM running for 12.505)
+2020-02-24 20:49:44.164 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - 【创建订单】result = 
+2020-02-24 20:49:44.181 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 20:49:44.187 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:49:44.190 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 20:49:44.209 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 20:59:49.139 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 11268 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 20:59:49.144 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 20:59:51.174 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 20:59:51.322 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131ms. Found 4 JPA repository interfaces.
+2020-02-24 20:59:52.037 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 20:59:52.521 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 20:59:52.906 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 20:59:53.001 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 20:59:53.188 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 20:59:53.477 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 20:59:53.950 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 20:59:55.791 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 20:59:55.801 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 20:59:58.093 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 20:59:58.203 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 20:59:59.773 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:00:01.656 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 21:00:01.780 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 21:00:01.936 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 21:00:02.370 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 14.602 seconds (JVM running for 16.434)
+2020-02-24 21:00:03.230 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - 【创建订单】result = 
+2020-02-24 21:00:03.269 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:00:03.296 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:00:03.319 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 21:00:03.359 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 21:33:15.799 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 5560 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 21:33:15.803 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 21:33:18.643 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 21:33:18.798 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 139ms. Found 4 JPA repository interfaces.
+2020-02-24 21:33:19.642 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 21:33:20.110 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 21:33:20.524 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 21:33:20.688 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 21:33:20.865 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 21:33:21.176 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 21:33:21.697 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 21:33:23.808 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 21:33:23.827 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:33:26.912 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 21:33:27.018 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 21:33:27.827 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:33:28.421 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 21:33:28.469 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 21:33:28.518 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 21:33:29.000 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 14.693 seconds (JVM running for 16.624)
+2020-02-24 21:33:29.835 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:33:29.891 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:33:29.906 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 21:33:30.031 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 21:37:38.105 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 5196 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 21:37:38.108 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 21:37:39.960 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 21:37:40.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162ms. Found 4 JPA repository interfaces.
+2020-02-24 21:37:40.934 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 21:37:41.342 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 21:37:41.818 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 21:37:41.965 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 21:37:42.149 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 21:37:42.462 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 21:37:42.938 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 21:37:44.787 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 21:37:44.800 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:37:47.748 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 21:37:47.837 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 21:37:48.814 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:37:49.845 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 21:37:49.896 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 21:37:49.967 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 21:37:50.231 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 13.794 seconds (JVM running for 16.744)
+2020-02-24 21:39:47.305 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:39:47.321 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:39:47.327 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 21:39:47.355 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 21:39:58.979 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 7488 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 21:39:58.995 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 21:40:00.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 21:40:00.911 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 156ms. Found 4 JPA repository interfaces.
+2020-02-24 21:40:01.835 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 21:40:02.265 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 21:40:02.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 21:40:02.875 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 21:40:03.049 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 21:40:03.382 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 21:40:03.840 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 21:40:04.674 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 21:40:04.689 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:40:06.819 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 21:40:06.905 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 21:40:07.776 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:40:08.369 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 21:40:08.409 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 21:40:08.472 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 21:40:08.888 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 11.893 seconds (JVM running for 14.407)
+2020-02-24 21:40:28.530 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - 【查询单个订单】result = 
+2020-02-24 21:40:28.580 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:40:28.592 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:40:28.601 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 21:40:28.625 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 21:40:33.310 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 4060 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 21:40:33.312 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 21:40:36.239 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 21:40:36.363 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111ms. Found 4 JPA repository interfaces.
+2020-02-24 21:40:37.058 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 21:40:37.510 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 21:40:37.895 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 21:40:37.982 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 21:40:38.131 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 21:40:38.363 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 21:40:38.815 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 21:40:39.641 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 21:40:39.652 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:40:41.717 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 21:40:41.797 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 21:40:42.549 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:40:43.266 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 21:40:43.316 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 21:40:43.364 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 21:40:43.571 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 11.427 seconds (JVM running for 13.698)
+2020-02-24 21:40:44.232 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - 【查询单个订单】result = 
+2020-02-24 21:40:44.250 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:40:45.201 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:40:45.205 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 21:40:45.262 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 21:41:49.999 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 14484 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 21:41:50.022 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 21:41:53.059 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 21:41:53.206 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131ms. Found 4 JPA repository interfaces.
+2020-02-24 21:41:53.926 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 21:41:54.751 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 21:41:55.156 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 21:41:55.249 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 21:41:55.440 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 21:41:55.780 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 21:41:56.392 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 21:41:57.501 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 21:41:57.524 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:41:59.573 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 21:41:59.658 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 21:42:00.335 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:42:00.894 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 21:42:00.929 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 21:42:00.984 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 21:42:01.210 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 12.67 seconds (JVM running for 14.81)
+2020-02-24 21:42:02.010 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - 【查询单个订单】result = OrderDTO(orderId=20200224210002731495, buyerName=师傅, buyerPhone=18273877909, buyerAddress=昆明, buyerOpenid=1101110, orderAmount=50.40, orderStatus=0, payStatus=0, createTime=2020-02-25 05:00:03.0, updateTime=2020-02-25 05:00:03.0, orderDetailList=[OrderDetail(detailId=20200224210002241074, orderId=20200224210002731495, productId=12345, productName=皮皮虾, productPrice=5.20, productQuantity=2, productIcon=http://yyy.jpg), OrderDetail(detailId=20200224210003921792, orderId=20200224210002731495, productId=1345, productName=芒果冰, productPrice=20.00, productQuantity=2, productIcon=http://cc.jpg)])
+2020-02-24 21:42:02.029 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 21:42:02.035 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 21:42:02.040 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 21:42:02.075 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 22:07:44.241 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 14468 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 22:07:44.341 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 22:07:46.738 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 22:07:47.010 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 242ms. Found 4 JPA repository interfaces.
+2020-02-24 22:07:47.858 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 22:07:48.597 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 22:07:49.191 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 22:07:49.317 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 22:07:49.533 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 22:07:49.907 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 22:07:50.400 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 22:07:51.552 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 22:07:51.576 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 22:07:54.230 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 22:07:54.341 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 22:07:55.183 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 22:07:55.855 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 22:07:55.905 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 22:07:55.965 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 22:07:56.852 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 14.243 seconds (JVM running for 17.206)
+2020-02-24 22:28:08.247 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 22:28:08.283 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 22:28:08.311 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 22:28:08.380 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 22:28:19.141 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 6400 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 22:28:19.161 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 22:28:22.279 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 22:28:22.472 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 176ms. Found 4 JPA repository interfaces.
+2020-02-24 22:28:23.287 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 22:28:23.732 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 22:28:24.185 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 22:28:24.316 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 22:28:24.503 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 22:28:24.789 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 22:28:25.273 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 22:28:29.833 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 22:28:29.847 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 22:28:32.487 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 22:28:32.555 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 22:28:33.409 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 22:28:34.251 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 22:28:34.283 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 22:28:34.329 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 22:28:34.756 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 17.057 seconds (JVM running for 19.386)
+2020-02-24 22:28:35.473 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 22:28:35.484 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 22:28:35.488 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 22:28:35.511 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:19:38.424 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 1604 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:19:38.433 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:19:41.402 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:19:41.587 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 162ms. Found 4 JPA repository interfaces.
+2020-02-24 23:19:42.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:19:43.098 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:19:43.694 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:19:43.794 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:19:44.031 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:19:44.502 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:19:45.353 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:19:46.911 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:19:46.927 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:19:49.249 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:19:49.355 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:19:49.972 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:19:50.570 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:19:50.617 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:19:50.674 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:19:50.910 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 14.453 seconds (JVM running for 18.194)
+2020-02-24 23:19:51.951 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:19:51.962 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:19:51.966 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:19:51.981 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:24:06.656 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 4660 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:24:06.660 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:24:08.949 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:24:09.116 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 151ms. Found 4 JPA repository interfaces.
+2020-02-24 23:24:09.763 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:24:10.110 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:24:10.429 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:24:10.532 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:24:10.672 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:24:10.859 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:24:11.228 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:24:12.221 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:24:12.240 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:24:13.958 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:24:14.030 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:24:14.578 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:24:15.096 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:24:15.136 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:24:15.187 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:24:15.411 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 10.856 seconds (JVM running for 12.6)
+2020-02-24 23:24:16.346 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:24:16.353 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:24:16.356 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:24:16.375 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:27:01.456 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 13900 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:27:01.462 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:27:04.033 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:27:04.156 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104ms. Found 4 JPA repository interfaces.
+2020-02-24 23:27:04.785 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:27:05.135 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:27:05.461 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:27:05.561 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:27:05.718 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:27:05.928 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:27:06.289 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:27:07.243 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:27:07.252 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:27:09.033 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:27:09.100 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:27:09.670 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:27:10.197 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:27:10.227 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:27:10.282 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:27:10.474 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 10.364 seconds (JVM running for 12.053)
+2020-02-24 23:27:11.198 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:27:11.203 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:27:11.206 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:27:11.221 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:27:37.134 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 3596 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:27:37.137 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:27:39.448 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:27:39.589 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 122ms. Found 4 JPA repository interfaces.
+2020-02-24 23:27:40.225 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:27:40.645 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:27:40.928 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:27:41.023 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:27:41.190 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:27:41.403 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:27:41.819 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:27:42.649 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:27:42.661 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:27:44.352 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:27:44.432 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:27:44.983 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:27:45.481 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:27:45.511 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:27:45.564 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:27:45.739 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 9.875 seconds (JVM running for 11.496)
+2020-02-24 23:27:46.483 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:27:46.488 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:27:46.495 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:27:46.515 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:47:16.806 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 10404 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:47:16.810 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:47:18.571 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:47:18.740 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143ms. Found 4 JPA repository interfaces.
+2020-02-24 23:47:19.440 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:47:19.871 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:47:20.381 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:47:20.486 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:47:20.708 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:47:21.040 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:47:21.555 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:47:22.631 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:47:22.644 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:47:25.606 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:47:25.685 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:47:26.525 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:47:27.220 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:47:27.267 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:47:27.323 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:47:27.740 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 12.505 seconds (JVM running for 15.288)
+2020-02-24 23:47:28.829 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:47:28.841 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:47:28.846 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:47:28.873 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:49:23.562 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 13128 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:49:23.572 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:49:25.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:49:25.883 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105ms. Found 4 JPA repository interfaces.
+2020-02-24 23:49:26.525 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:49:27.041 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:49:27.417 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:49:27.499 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:49:27.648 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:49:27.835 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:49:28.204 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:49:29.182 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:49:29.194 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:49:30.909 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:49:30.979 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:49:31.669 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:49:32.187 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:49:32.233 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:49:32.292 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:49:32.578 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 10.285 seconds (JVM running for 12.379)
+2020-02-24 23:49:33.297 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:49:33.304 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:49:33.309 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:49:33.326 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:53:24.860 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 2920 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:53:24.865 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:53:27.563 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:53:27.708 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125ms. Found 4 JPA repository interfaces.
+2020-02-24 23:53:28.383 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:53:28.765 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:53:29.099 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:53:29.184 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:53:29.345 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:53:29.546 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:53:29.917 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:53:30.856 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:53:30.870 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:53:32.712 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:53:32.784 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:53:33.448 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:53:33.963 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:53:33.991 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:53:34.048 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:53:34.259 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 10.811 seconds (JVM running for 12.621)
+2020-02-24 23:53:35.190 [main] INFO  com.lyh.sell.service.impl.OrderServiceImpl - orderDTO=OrderDTO(orderId=20200224210002731495, buyerName=师傅, buyerPhone=18273877909, buyerAddress=昆明, buyerOpenid=1101110, orderAmount=50.40, orderStatus=2, payStatus=0, createTime=2020-02-25 05:00:03.0, updateTime=2020-02-25 07:49:45.0, orderDetailList=[OrderDetail(detailId=20200224210002241074, orderId=20200224210002731495, productId=12345, productName=皮皮虾, productPrice=5.20, productQuantity=2, productIcon=http://yyy.jpg), OrderDetail(detailId=20200224210003921792, orderId=20200224210002731495, productId=1345, productName=芒果冰, productPrice=20.00, productQuantity=2, productIcon=http://cc.jpg)])
+2020-02-24 23:53:35.283 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:53:35.294 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:53:35.297 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:53:35.326 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:55:37.096 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 14344 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:55:37.104 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:55:39.334 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:55:39.482 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 132ms. Found 4 JPA repository interfaces.
+2020-02-24 23:55:40.102 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:55:40.488 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:55:40.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:55:40.986 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:55:41.136 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:55:41.331 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:55:41.756 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:55:42.690 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:55:42.703 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:55:44.548 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:55:44.625 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:55:45.191 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:55:45.751 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:55:45.814 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:55:45.859 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:55:46.051 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 10.479 seconds (JVM running for 13.14)
+2020-02-24 23:55:46.905 [main] INFO  com.lyh.sell.service.impl.OrderServiceImpl - orderDTO=OrderDTO(orderId=20200224210002731495, buyerName=师傅, buyerPhone=18273877909, buyerAddress=昆明, buyerOpenid=1101110, orderAmount=50.40, orderStatus=2, payStatus=0, createTime=2020-02-25 05:00:03.0, updateTime=2020-02-25 07:55:23.0, orderDetailList=[OrderDetail(detailId=20200224210002241074, orderId=20200224210002731495, productId=12345, productName=皮皮虾, productPrice=5.20, productQuantity=2, productIcon=http://yyy.jpg), OrderDetail(detailId=20200224210003921792, orderId=20200224210002731495, productId=1345, productName=芒果冰, productPrice=20.00, productQuantity=2, productIcon=http://cc.jpg)])
+2020-02-24 23:55:46.940 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:55:46.949 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:55:46.953 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:55:46.975 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-24 23:56:21.840 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Starting OrderServiceImplTest on SKY-20180604AKA with PID 14596 (started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-24 23:56:21.843 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+2020-02-24 23:56:23.802 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-24 23:56:23.924 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109ms. Found 4 JPA repository interfaces.
+2020-02-24 23:56:24.578 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-24 23:56:25.022 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-24 23:56:25.328 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-24 23:56:25.412 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-24 23:56:25.556 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-24 23:56:25.781 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-24 23:56:26.143 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-24 23:56:27.124 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-24 23:56:27.137 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:56:28.933 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-24 23:56:29.007 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-24 23:56:29.668 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:56:30.147 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-24 23:56:30.180 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-24 23:56:30.241 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-24 23:56:30.440 [main] INFO  com.lyh.sell.service.impl.OrderServiceImplTest - Started OrderServiceImplTest in 9.882 seconds (JVM running for 11.779)
+2020-02-24 23:56:31.077 [main] INFO  com.lyh.sell.service.impl.OrderServiceImpl - orderDTO=OrderDTO(orderId=20200224210002731495, buyerName=师傅, buyerPhone=18273877909, buyerAddress=昆明, buyerOpenid=1101110, orderAmount=50.40, orderStatus=0, payStatus=0, createTime=2020-02-25 05:00:03.0, updateTime=2020-02-25 07:56:10.0, orderDetailList=[OrderDetail(detailId=20200224210002241074, orderId=20200224210002731495, productId=12345, productName=皮皮虾, productPrice=5.20, productQuantity=2, productIcon=http://yyy.jpg), OrderDetail(detailId=20200224210003921792, orderId=20200224210002731495, productId=1345, productName=芒果冰, productPrice=20.00, productQuantity=2, productIcon=http://cc.jpg)])
+2020-02-24 23:56:31.138 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-24 23:56:31.144 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-24 23:56:31.150 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-24 23:56:31.170 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
