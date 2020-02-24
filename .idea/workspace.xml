@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="77f5c70d-44f7-4832-9039-3852e0a956c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/sell/config/DefineDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/sell/config/DefineDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/sell/config/DefineDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/sell/config/DefineDir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/sell/dataobject/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/sell/dataobject/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/sell/dataobject/OrderMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/sell/dataobject/OrderMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/sell/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/sell/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/sell/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/sell/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lyh/sell/service/impl/ProductServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lyh/sell/service/impl/ProductServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +31,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Class" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XzAbKj05O52yy3xooWjRpSqSiE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,82 +85,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.lyh.sell.repository" />
       <recent name="com.lyh.sell.service.impl" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lyh.sell" />
+      <recent name="com.lyh.sell.repository" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lyh.sell" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SellApplication">
-    <configuration name="OrderDetailRepositoryTest.findByOrderId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyh.sell.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderDetailRepositoryTest" />
-      <option name="METHOD_NAME" value="findByOrderId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderDetailRepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyh.sell.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderDetailRepositoryTest" />
-      <option name="METHOD_NAME" value="saveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderMasterRepositoryTest.findByBuyerOpenid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyh.sell.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderMasterRepositoryTest" />
-      <option name="METHOD_NAME" value="findByBuyerOpenid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderMasterRepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyh.sell.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyh.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.repository.OrderMasterRepositoryTest" />
-      <option name="METHOD_NAME" value="saveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderServiceImplTest.paid">
+    <configuration name="OrderServiceImplTest.cancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sell" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +105,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lyh.sell.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.service.impl.ProductServiceImplTest" />
-      <option name="METHOD_NAME" value="save" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="cancel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.findList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="findList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="findOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.finish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="finish" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.paid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="paid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderDetailRepositoryTest.findByOrderId" />
-        <item itemvalue="JUnit.OrderDetailRepositoryTest.saveTest" />
-        <item itemvalue="JUnit.OrderMasterRepositoryTest.findByBuyerOpenid" />
-        <item itemvalue="JUnit.OrderMasterRepositoryTest.saveTest" />
-        <item itemvalue="JUnit.ProductServiceImplTest.save" />
+        <item itemvalue="JUnit.OrderServiceImplTest.paid" />
+        <item itemvalue="JUnit.OrderServiceImplTest.finish" />
+        <item itemvalue="JUnit.OrderServiceImplTest.cancel" />
+        <item itemvalue="JUnit.OrderServiceImplTest.findList" />
+        <item itemvalue="JUnit.OrderServiceImplTest.findOne" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +227,8 @@
       <workItem from="1582365982383" duration="2009000" />
       <workItem from="1582368391974" duration="14478000" />
       <workItem from="1582437815074" duration="13405000" />
-      <workItem from="1582471634379" duration="1219000" />
+      <workItem from="1582471634379" duration="1399000" />
+      <workItem from="1582510165859" duration="23152000" />
     </task>
     <task id="LOCAL-00001" summary="2020-02-23">
       <created>1582472438575</created>
@@ -231,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582472438575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020-02-23">
+      <created>1582472944319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582472944320</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,77 +263,77 @@
       <screen x="0" y="0" width="1707" height="935" />
     </state>
     <state x="446" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.935@0.0.1707.935" timestamp="1582256968139" />
-    <state x="659" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1582448686979">
+    <state x="659" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1582543285505">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state x="659" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1707.935@0.0.1707.935" timestamp="1582448686979" />
-    <state x="638" y="325" width="431" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582449463194">
+    <state x="659" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1707.935@0.0.1707.935" timestamp="1582543285505" />
+    <state x="638" y="325" width="431" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582544600582">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state x="638" y="325" width="431" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.935@0.0.1707.935" timestamp="1582449463194" />
+    <state x="638" y="325" width="431" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.935@0.0.1707.935" timestamp="1582544600582" />
     <state x="584" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582252413130">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
     <state x="584" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.935@0.0.1707.935" timestamp="1582252413130" />
-    <state x="358" y="59" key="CommitChangelistDialog2" timestamp="1582472433987">
+    <state x="358" y="59" key="CommitChangelistDialog2" timestamp="1582472934712">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state x="358" y="59" key="CommitChangelistDialog2/0.0.1707.935@0.0.1707.935" timestamp="1582472433987" />
+    <state x="358" y="59" key="CommitChangelistDialog2/0.0.1707.935@0.0.1707.935" timestamp="1582472934712" />
     <state x="634" y="208" key="FileChooserDialogImpl" timestamp="1582472240764">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
     <state x="634" y="208" key="FileChooserDialogImpl/0.0.1707.935@0.0.1707.935" timestamp="1582472240764" />
-    <state width="1663" height="281" key="GridCell.Tab.0.bottom" timestamp="1582472871061">
+    <state width="1663" height="281" key="GridCell.Tab.0.bottom" timestamp="1582560996950">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.0.bottom/0.0.1707.935@0.0.1707.935" timestamp="1582472871061" />
-    <state width="1663" height="281" key="GridCell.Tab.0.center" timestamp="1582472871061">
+    <state width="1663" height="281" key="GridCell.Tab.0.bottom/0.0.1707.935@0.0.1707.935" timestamp="1582560996950" />
+    <state width="1663" height="281" key="GridCell.Tab.0.center" timestamp="1582560996950">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.0.center/0.0.1707.935@0.0.1707.935" timestamp="1582472871061" />
-    <state width="1663" height="281" key="GridCell.Tab.0.left" timestamp="1582472871060">
+    <state width="1663" height="281" key="GridCell.Tab.0.center/0.0.1707.935@0.0.1707.935" timestamp="1582560996950" />
+    <state width="1663" height="281" key="GridCell.Tab.0.left" timestamp="1582560996949">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.0.left/0.0.1707.935@0.0.1707.935" timestamp="1582472871060" />
-    <state width="1663" height="281" key="GridCell.Tab.0.right" timestamp="1582472871061">
+    <state width="1663" height="281" key="GridCell.Tab.0.left/0.0.1707.935@0.0.1707.935" timestamp="1582560996949" />
+    <state width="1663" height="281" key="GridCell.Tab.0.right" timestamp="1582560996950">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.0.right/0.0.1707.935@0.0.1707.935" timestamp="1582472871061" />
-    <state width="1663" height="281" key="GridCell.Tab.1.bottom" timestamp="1582472871062">
+    <state width="1663" height="281" key="GridCell.Tab.0.right/0.0.1707.935@0.0.1707.935" timestamp="1582560996950" />
+    <state width="1663" height="300" key="GridCell.Tab.1.bottom" timestamp="1582554492820">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.1.bottom/0.0.1707.935@0.0.1707.935" timestamp="1582472871062" />
-    <state width="1663" height="281" key="GridCell.Tab.1.center" timestamp="1582472871062">
+    <state width="1663" height="300" key="GridCell.Tab.1.bottom/0.0.1707.935@0.0.1707.935" timestamp="1582554492820" />
+    <state width="1663" height="300" key="GridCell.Tab.1.center" timestamp="1582554492820">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.1.center/0.0.1707.935@0.0.1707.935" timestamp="1582472871062" />
-    <state width="1663" height="281" key="GridCell.Tab.1.left" timestamp="1582472871061">
+    <state width="1663" height="300" key="GridCell.Tab.1.center/0.0.1707.935@0.0.1707.935" timestamp="1582554492820" />
+    <state width="1663" height="300" key="GridCell.Tab.1.left" timestamp="1582554492820">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.1.left/0.0.1707.935@0.0.1707.935" timestamp="1582472871061" />
-    <state width="1663" height="281" key="GridCell.Tab.1.right" timestamp="1582472871062">
+    <state width="1663" height="300" key="GridCell.Tab.1.left/0.0.1707.935@0.0.1707.935" timestamp="1582554492820" />
+    <state width="1663" height="300" key="GridCell.Tab.1.right" timestamp="1582554492820">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state width="1663" height="281" key="GridCell.Tab.1.right/0.0.1707.935@0.0.1707.935" timestamp="1582472871062" />
+    <state width="1663" height="300" key="GridCell.Tab.1.right/0.0.1707.935@0.0.1707.935" timestamp="1582554492820" />
     <state x="338" y="150" key="SettingsEditor" timestamp="1582471585094">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
     <state x="338" y="150" key="SettingsEditor/0.0.1707.935@0.0.1707.935" timestamp="1582471585094" />
-    <state x="446" y="188" key="Vcs.Push.Dialog.v2" timestamp="1582472507940">
+    <state x="446" y="188" key="Vcs.Push.Dialog.v2" timestamp="1582472956055">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state x="446" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.935@0.0.1707.935" timestamp="1582472507940" />
-    <state x="538" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1582471633927">
+    <state x="446" y="188" key="Vcs.Push.Dialog.v2/0.0.1707.935@0.0.1707.935" timestamp="1582472956055" />
+    <state x="538" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1582510181520">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state x="538" y="291" key="com.intellij.ide.util.TipDialog/0.0.1707.935@0.0.1707.935" timestamp="1582471633927" />
-    <state x="625" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582469660270">
+    <state x="538" y="291" key="com.intellij.ide.util.TipDialog/0.0.1707.935@0.0.1707.935" timestamp="1582510181520" />
+    <state x="625" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582545111358">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state x="625" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1707.935@0.0.1707.935" timestamp="1582469660270" />
-    <state x="516" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1582449699647">
+    <state x="625" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1707.935@0.0.1707.935" timestamp="1582545111358" />
+    <state x="516" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1582547141795">
       <screen x="0" y="0" width="1707" height="935" />
     </state>
-    <state x="516" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1707.935@0.0.1707.935" timestamp="1582449699647" />
+    <state x="516" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1707.935@0.0.1707.935" timestamp="1582547141795" />
   </component>
 </project>

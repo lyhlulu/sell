@@ -4,6 +4,7 @@ import com.lyh.sell.enums.OrderStatusEnum;
 import com.lyh.sell.enums.PayStatusEnum;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
+import org.hibernate.annotations.Proxy;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -17,6 +18,7 @@ import java.util.Date;
 @Entity
 @Data
 @DynamicUpdate
+@Proxy(lazy = false)
 public class OrderMaster {
 
     /** 订单id */

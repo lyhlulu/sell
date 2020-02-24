@@ -1,6 +1,7 @@
 package com.lyh.sell.service.impl;
 
 import com.lyh.sell.dataobject.ProductInfo;
+import com.lyh.sell.dto.CartDTO;
 import com.lyh.sell.enums.ProductStatusEnum;
 import org.junit.Assert;
 import org.junit.Test;
