@@ -14,7 +14,7 @@ public class KeyUtil {
         Integer number = random.nextInt(900000) + 100000;
         SimpleDateFormat dateformat = new SimpleDateFormat("yyyyMMddHHmmss");
 
-        return dateformat.format(System.currentTimeMillis()) + String.valueOf(number);
+        return System.currentTimeMillis() + String.valueOf(number);
     }
 
 }

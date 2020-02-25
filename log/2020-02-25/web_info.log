@@ -46,3 +46,606 @@
 2020-02-25 00:16:52.038 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-02-25 00:16:52.041 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2020-02-25 00:16:52.066 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-25 18:01:47.895 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 9744 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 18:01:47.901 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 18:01:50.670 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 18:01:51.071 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 386ms. Found 4 JPA repository interfaces.
+2020-02-25 18:01:51.704 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 18:01:52.079 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 18:01:52.090 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:01:52.091 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 18:01:52.092 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 18:01:52.229 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 18:01:52.230 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4165 ms
+2020-02-25 18:01:52.252 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 18:01:52.436 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 18:01:52.708 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 18:01:52.924 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 18:01:53.055 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 18:01:53.256 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 18:01:53.419 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 18:01:53.984 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 18:01:53.995 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:01:54.895 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 18:01:55.060 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:01:55.407 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 18:01:55.433 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 18:01:55.476 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 18:01:55.701 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:01:55.734 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 18:01:55.738 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 9.158 seconds (JVM running for 11.19)
+2020-02-25 18:02:27.404 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 15228 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 18:02:27.410 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 18:02:28.730 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 18:02:28.857 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110ms. Found 4 JPA repository interfaces.
+2020-02-25 18:02:29.245 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 18:02:29.509 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 18:02:29.517 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:02:29.518 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 18:02:29.519 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 18:02:29.617 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 18:02:29.617 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2106 ms
+2020-02-25 18:02:29.631 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 18:02:29.752 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 18:02:30.007 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 18:02:30.055 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 18:02:30.121 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 18:02:30.248 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 18:02:30.363 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 18:02:30.760 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 18:02:30.767 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:02:31.570 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 18:02:31.697 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:02:31.978 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 18:02:31.996 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 18:02:32.036 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 18:02:32.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:02:32.255 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 18:02:32.258 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 5.737 seconds (JVM running for 6.838)
+2020-02-25 18:02:55.578 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 18:02:55.579 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 18:02:55.594 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2020-02-25 18:13:09.374 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 1920 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 18:13:09.383 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 18:13:10.465 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 18:13:10.621 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135ms. Found 4 JPA repository interfaces.
+2020-02-25 18:13:11.164 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 18:13:11.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 18:13:11.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:13:11.594 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 18:13:11.595 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 18:13:11.733 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 18:13:11.734 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2285 ms
+2020-02-25 18:13:11.755 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 18:13:11.976 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 18:13:12.272 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 18:13:12.333 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 18:13:12.483 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 18:13:12.790 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 18:13:13.048 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 18:13:13.755 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 18:13:13.766 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:13:14.889 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 18:13:15.062 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:13:15.348 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 18:13:15.374 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 18:13:15.429 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 18:13:15.655 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:13:15.690 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 18:13:15.693 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 7.337 seconds (JVM running for 11.579)
+2020-02-25 18:13:57.554 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 18:13:57.554 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 18:13:57.562 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-02-25 18:22:02.333 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:22:02.347 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:22:02.398 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-25 18:22:02.511 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-25 18:22:13.055 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 14960 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 18:22:13.062 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 18:22:14.336 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 18:22:14.435 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86ms. Found 4 JPA repository interfaces.
+2020-02-25 18:22:14.855 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 18:22:15.313 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 18:22:15.331 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:22:15.333 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 18:22:15.333 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 18:22:15.473 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 18:22:15.473 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2298 ms
+2020-02-25 18:22:15.500 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 18:22:15.713 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 18:22:17.185 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 18:22:17.745 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 18:22:18.964 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 18:22:20.886 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 18:22:22.218 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 18:22:23.034 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 18:22:23.046 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:22:24.037 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 18:22:24.224 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:22:24.570 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 18:22:24.616 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 18:22:24.666 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 18:22:24.863 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:22:24.902 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 18:22:24.905 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 13.181 seconds (JVM running for 15.36)
+2020-02-25 18:22:31.473 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 18:22:31.474 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 18:22:31.484 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-02-25 18:24:11.968 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:24:11.974 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:24:11.980 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-25 18:24:11.993 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-25 18:24:22.492 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 8360 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 18:24:22.505 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 18:24:24.087 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 18:24:24.228 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124ms. Found 4 JPA repository interfaces.
+2020-02-25 18:24:24.674 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 18:24:24.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 18:24:24.938 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:24:24.939 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 18:24:24.940 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 18:24:25.049 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 18:24:25.049 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2467 ms
+2020-02-25 18:24:25.064 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 18:24:25.197 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 18:24:25.420 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 18:24:25.470 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 18:24:25.546 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 18:24:25.669 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 18:24:25.771 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 18:24:26.178 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 18:24:26.186 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:24:26.915 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 18:24:27.031 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:24:27.223 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 18:24:27.239 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 18:24:27.268 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 18:24:27.405 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:24:27.428 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 18:24:27.431 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 6.381 seconds (JVM running for 7.685)
+2020-02-25 18:24:46.840 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 18:24:46.840 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 18:24:46.849 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-02-25 18:46:42.977 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 7212 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 18:46:42.985 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 18:46:44.316 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 18:46:44.439 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106ms. Found 4 JPA repository interfaces.
+2020-02-25 18:46:44.904 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 18:46:45.360 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 18:46:45.377 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:46:45.378 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 18:46:45.379 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 18:46:45.550 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 18:46:45.550 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2484 ms
+2020-02-25 18:46:45.580 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 18:46:45.773 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 18:46:46.132 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 18:46:46.192 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 18:46:46.347 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 18:46:46.623 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 18:46:46.851 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 18:46:47.596 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 18:46:47.610 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:46:48.573 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 18:46:48.717 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:46:49.019 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 18:46:49.047 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 18:46:49.097 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 18:46:49.292 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 18:46:49.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 18:46:49.352 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 18:46:49.355 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 7.921 seconds (JVM running for 10.175)
+2020-02-25 18:47:13.970 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 18:47:13.970 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 18:47:13.979 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-02-25 18:53:48.938 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 18:53:48.947 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 18:53:48.953 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-25 18:53:48.965 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-02-25 19:04:57.300 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 7064 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:04:57.311 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:04:59.475 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:04:59.589 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98ms. Found 4 JPA repository interfaces.
+2020-02-25 19:04:59.929 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:05:00.252 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:05:00.261 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:05:00.262 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:05:00.262 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:05:00.363 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:05:00.364 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2869 ms
+2020-02-25 19:05:00.380 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:05:00.546 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:05:00.932 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:05:00.981 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:05:01.107 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:05:01.343 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:05:01.509 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:05:02.108 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:05:02.118 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:05:03.156 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:05:03.300 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:05:03.549 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:05:03.573 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:05:03.610 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:05:03.942 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:05:03.973 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:05:04.014 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:05:04.017 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 7.829 seconds (JVM running for 8.94)
+2020-02-25 19:05:15.625 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:05:15.625 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:05:15.635 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-02-25 19:06:23.992 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 8188 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:06:23.999 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:06:25.909 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:06:26.011 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85ms. Found 4 JPA repository interfaces.
+2020-02-25 19:06:26.410 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:06:26.683 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:06:26.693 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:06:26.694 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:06:26.694 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:06:26.794 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:06:26.794 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2673 ms
+2020-02-25 19:06:26.814 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:06:26.961 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:06:27.107 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:06:27.258 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:06:27.352 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:06:27.497 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:06:27.637 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:06:28.105 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:06:28.116 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:06:28.986 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:06:29.122 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:06:29.330 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:06:29.351 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:06:29.381 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:06:29.507 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:06:29.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:06:29.558 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:06:29.561 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 6.646 seconds (JVM running for 7.812)
+2020-02-25 19:10:05.617 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 3916 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:10:05.622 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:10:07.011 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:10:07.124 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98ms. Found 4 JPA repository interfaces.
+2020-02-25 19:10:07.492 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:10:07.890 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:10:07.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:10:07.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:10:07.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:10:08.019 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:10:08.019 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2283 ms
+2020-02-25 19:10:08.035 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:10:08.190 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:10:08.518 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:10:08.572 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:10:08.710 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:10:08.955 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:10:09.198 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:10:09.894 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:10:09.905 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:10:10.917 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:10:11.057 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:10:11.310 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:10:11.330 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:10:11.364 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:10:11.507 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:10:11.530 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:10:11.557 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:10:11.559 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 6.838 seconds (JVM running for 7.816)
+2020-02-25 19:10:18.548 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:10:18.548 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:10:18.555 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-02-25 19:12:20.187 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 11404 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:12:20.191 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:12:21.554 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:12:21.662 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93ms. Found 4 JPA repository interfaces.
+2020-02-25 19:12:21.991 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:12:22.281 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:12:22.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:12:22.292 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:12:22.292 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:12:22.394 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:12:22.394 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2106 ms
+2020-02-25 19:12:22.409 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:12:22.542 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:12:22.767 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:12:22.834 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:12:22.932 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:12:23.135 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:12:23.301 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:12:23.745 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:12:23.753 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:12:24.490 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:12:24.613 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:12:24.825 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:12:24.843 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:12:24.876 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:12:24.996 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:12:25.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:12:25.042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:12:25.044 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 5.808 seconds (JVM running for 6.839)
+2020-02-25 19:12:29.075 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:12:29.075 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:12:29.084 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-02-25 19:14:58.825 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 13316 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:14:58.829 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:15:00.435 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:15:00.612 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 160ms. Found 4 JPA repository interfaces.
+2020-02-25 19:15:01.040 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:15:01.485 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:15:01.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:15:01.532 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:15:01.533 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:15:01.693 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:15:01.694 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2806 ms
+2020-02-25 19:15:01.718 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:15:01.911 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:15:02.255 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:15:02.313 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:15:10.334 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:15:10.591 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:15:10.764 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:15:11.364 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:15:11.375 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:15:12.160 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:15:12.293 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:15:12.518 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:15:12.540 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:15:12.575 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:15:12.708 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:15:12.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:15:12.756 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:15:12.759 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 15.147 seconds (JVM running for 16.472)
+2020-02-25 19:15:50.293 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:15:50.293 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:15:50.304 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-02-25 19:16:24.133 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 9708 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:16:24.138 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:16:25.618 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:16:25.732 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99ms. Found 4 JPA repository interfaces.
+2020-02-25 19:16:26.107 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:16:26.409 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:16:26.420 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:16:26.421 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:16:26.421 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:16:26.533 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:16:26.534 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2301 ms
+2020-02-25 19:16:26.549 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:16:26.696 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:16:26.926 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:16:26.970 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:16:27.038 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:16:27.187 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:16:27.321 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:16:27.782 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:16:27.793 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:16:28.585 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:16:28.708 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:16:28.933 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:16:28.949 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:16:28.998 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:16:29.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:16:29.162 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:16:29.189 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:16:29.191 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 5.959 seconds (JVM running for 6.963)
+2020-02-25 19:16:38.967 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:16:38.968 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:16:38.979 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-02-25 19:33:08.212 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 4864 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:33:08.325 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:33:10.086 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:33:10.214 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109ms. Found 4 JPA repository interfaces.
+2020-02-25 19:33:10.634 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:33:11.018 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:33:11.031 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:33:11.032 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:33:11.033 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:33:11.174 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:33:11.174 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2666 ms
+2020-02-25 19:33:11.206 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:33:11.532 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:33:12.079 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:33:12.207 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:33:12.400 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:33:12.668 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:33:12.855 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:33:13.928 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:33:13.946 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:33:15.074 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:33:15.221 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:33:15.455 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:33:15.477 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:33:15.522 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:33:15.687 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:33:15.706 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:33:15.733 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:33:15.736 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 8.783 seconds (JVM running for 9.933)
+2020-02-25 19:33:34.373 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:33:34.374 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:33:34.383 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-02-25 19:44:11.011 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 12344 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:44:11.016 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:44:14.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:44:14.259 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102ms. Found 4 JPA repository interfaces.
+2020-02-25 19:44:14.639 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:44:14.983 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:44:14.995 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:44:14.996 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:44:14.997 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:44:15.144 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:44:15.144 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3694 ms
+2020-02-25 19:44:15.161 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:44:15.342 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:44:15.705 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:44:15.756 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:44:15.888 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:44:16.206 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:44:16.421 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:44:17.104 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:44:17.119 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:44:18.003 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:44:18.125 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:44:18.370 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:44:18.418 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:44:18.459 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:44:18.614 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:44:18.633 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:44:18.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:44:18.662 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 9.098 seconds (JVM running for 11.426)
+2020-02-25 19:49:31.220 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 15780 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:49:31.227 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:49:33.028 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:49:33.141 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 4 JPA repository interfaces.
+2020-02-25 19:49:33.570 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:49:33.929 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:49:33.941 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:49:33.943 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:49:33.943 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:49:34.050 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:49:34.050 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2659 ms
+2020-02-25 19:49:34.069 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:49:34.245 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:49:34.569 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:49:34.625 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:49:34.768 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:49:35.028 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:49:35.214 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:49:35.845 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:49:35.855 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:49:36.823 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:49:37.248 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:49:37.476 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:49:37.499 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:49:37.596 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:49:37.798 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:49:37.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:49:37.906 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:49:37.909 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 7.824 seconds (JVM running for 8.919)
+2020-02-25 19:50:34.888 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 3560 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:50:34.894 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:50:36.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:50:36.411 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100ms. Found 4 JPA repository interfaces.
+2020-02-25 19:50:36.788 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:50:37.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:50:37.082 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:50:37.083 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:50:37.083 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:50:37.178 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:50:37.178 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2182 ms
+2020-02-25 19:50:37.199 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:50:37.335 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:50:37.652 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:50:37.714 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:50:37.787 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:50:37.925 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:50:38.039 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:50:38.513 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:50:38.522 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:50:39.333 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:50:39.457 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:50:39.669 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:50:39.701 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:50:39.740 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:50:39.937 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:50:39.962 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:50:39.990 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:50:39.993 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 6.214 seconds (JVM running for 7.403)
+2020-02-25 19:50:50.908 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:50:50.909 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:50:50.919 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-02-25 19:51:21.232 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 1400 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 19:51:21.311 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 19:51:22.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 19:51:22.861 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97ms. Found 4 JPA repository interfaces.
+2020-02-25 19:51:23.191 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 19:51:23.471 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 19:51:23.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:51:23.481 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 19:51:23.482 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 19:51:23.581 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 19:51:23.582 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2159 ms
+2020-02-25 19:51:23.604 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 19:51:23.769 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 19:51:24.135 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 19:51:24.174 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 19:51:24.236 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 19:51:24.439 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 19:51:24.554 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 19:51:25.079 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 19:51:25.088 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 19:51:26.485 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 19:51:26.628 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 19:51:26.861 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 19:51:26.876 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 19:51:26.910 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 19:51:27.073 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 19:51:27.096 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 19:51:27.126 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 19:51:27.129 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 6.802 seconds (JVM running for 7.966)
+2020-02-25 19:51:31.907 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 19:51:31.907 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 19:51:31.922 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2020-02-25 21:41:00.778 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 2228 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 21:41:00.858 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 21:41:02.935 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 21:41:03.042 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94ms. Found 4 JPA repository interfaces.
+2020-02-25 21:41:03.401 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:41:03.708 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 21:41:03.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 21:41:03.737 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 21:41:03.737 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:41:03.838 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 21:41:03.839 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2869 ms
+2020-02-25 21:41:03.858 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 21:41:04.029 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 21:41:04.482 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 21:41:04.548 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 21:41:04.684 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 21:41:04.925 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 21:41:05.088 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 21:41:05.754 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 21:41:05.765 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 21:41:06.672 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 21:41:06.785 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:41:07.032 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 21:41:07.072 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 21:41:07.106 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 21:41:07.270 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 21:41:07.292 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 21:41:07.319 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 21:41:07.322 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 8.009 seconds (JVM running for 9.425)
+2020-02-25 21:41:47.179 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 21:41:47.180 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 21:41:47.190 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-02-25 21:44:34.720 [main] INFO  com.lyh.sell.SellApplication - Starting SellApplication on SKY-20180604AKA with PID 11840 (E:\IdeaProjects\sell\target\classes started by 刘元辉 in E:\IdeaProjects\sell)
+2020-02-25 21:44:34.723 [main] INFO  com.lyh.sell.SellApplication - No active profile set, falling back to default profiles: default
+2020-02-25 21:44:36.627 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 21:44:36.781 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131ms. Found 4 JPA repository interfaces.
+2020-02-25 21:44:37.115 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:44:37.631 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 21:44:37.643 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 21:44:37.643 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-25 21:44:37.644 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-25 21:44:37.783 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2020-02-25 21:44:37.784 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2902 ms
+2020-02-25 21:44:37.799 [main] INFO  com.lyh.sell.config.CorsConfig - 调用了config跨域请求
+2020-02-25 21:44:38.054 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-25 21:44:38.386 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-25 21:44:38.449 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 21:44:38.605 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-25 21:44:38.904 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 21:44:39.109 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-25 21:44:39.880 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 21:44:39.890 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 21:44:41.204 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-25 21:44:41.454 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:44:41.782 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-02-25 21:44:41.801 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-02-25 21:44:41.871 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-02-25 21:44:42.090 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-02-25 21:44:42.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 21:44:42.150 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-25 21:44:42.153 [main] INFO  com.lyh.sell.SellApplication - Started SellApplication in 8.646 seconds (JVM running for 10.029)
+2020-02-25 21:44:47.828 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sell] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 21:44:47.828 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-25 21:44:47.836 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms

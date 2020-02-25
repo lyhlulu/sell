@@ -1,8 +1,11 @@
 package com.lyh.sell.dto;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.lyh.sell.dataobject.OrderDetail;
 import com.lyh.sell.enums.OrderStatusEnum;
 import com.lyh.sell.enums.PayStatusEnum;
+import com.lyh.sell.utils.serializer.Date2LongSerializer;
 import lombok.Data;
 
 import javax.persistence.Id;
@@ -15,6 +18,7 @@ import java.util.List;
  * @date 2020/2/24 11:14
  */
 @Data
+//@JsonInclude(JsonInclude.Include.NON_NULL)
 public class OrderDTO {
 
     /** 订单id */
@@ -43,9 +47,11 @@ public class OrderDTO {
     private Integer payStatus;
 
     /** 创建时间 */
+    @JsonSerialize(using = Date2LongSerializer.class)
     private Date createTime;
 
     /** 更新时间 */
+    @JsonSerialize(using = Date2LongSerializer.class)
     private Date updateTime;
 
     List<OrderDetail> orderDetailList;

@@ -1,5 +1,6 @@
 package com.lyh.sell.VO;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 /**
@@ -7,6 +8,7 @@ import lombok.Data;
  * @date 2020/2/23 0:10
  */
 @Data
+//@JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResultVO<T> {
 
     /** 错误码 */
