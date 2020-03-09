@@ -16,9 +16,8 @@ public class SellException extends RuntimeException {
         this.code = resultEnum.getCode();
     }
 
-    public SellException(ResultEnum resultEnum, String message){
+    public SellException(Integer code, String message) {
         super(message);
-
-        this.code = resultEnum.getCode();
+        this.code = code;
     }
 }

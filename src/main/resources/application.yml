@@ -10,6 +10,16 @@ spring:
 
   jackson:
     default-property-inclusion: non_null
+
 server:
   servlet:
     context-path: /sell
+  port: 8080
+
+wechat:
+  mpAppId: wx03b1a83fb0ed60f4
+  mpAppSecret: b22c63bd98724a73e0f00d810580aa6f
+  mchId: 1578937791
+  mchKey: K8MDNlUgJIM7zA5BiNvfPFWi0v37zBlu
+  keyPath: D:/Program Files/WXCertUtil/cert/apiclient_cert.p12
+  notify_url: http://lyhlulu.natapp1.cc/sell/pay/notify
